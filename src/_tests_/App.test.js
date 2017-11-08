@@ -9,7 +9,6 @@ import WWWApp from "../App";
 import mockState from "./mockState";
 
 describe('<WhereWeatherWear App/>', () => {
-  let request;
   let wrapper;
   let component;
 
