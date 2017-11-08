@@ -4,7 +4,6 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import wWWReducer from './reducers/www';
 import WeatherSection from './containers/WeatherSection';
-import logo from './logo.svg';
 import './styles/App.css';
 
 export default class App extends Component {
@@ -21,9 +20,6 @@ export default class App extends Component {
         <div className="App">
           <header className="App-header">
             <h1 className="App-title">Where Weather Wear: What to Wear According to the Weather - Wherever You Are!</h1>
-            <div>
-              <img src={logo} className="App-logo" alt="logo" />
-            </div>
           </header>
           <WeatherSection />
         </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 import WeatherInfo from '../components/WeatherInfo';
 import moment from 'moment';
 import '../styles/DayBox.css';

@@ -28,7 +28,6 @@
 @media screen and (min-width: 768px) {
   .www__weather-today-box {
     height: 350px;
-    overflow: auto;
   }
   .www_weather-today-box-weather-section {
     display: inline-block;
@@ -38,6 +37,7 @@
   .www_weather-today-box-what-to-wear-section {
     display: inline-block;
     width: 50%;
+    float: left;
   }
   .www_weather-today-box-weather-section__img-section {
     display: inline-block;

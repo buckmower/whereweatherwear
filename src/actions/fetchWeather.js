@@ -52,10 +52,12 @@ const getWeatherInfo = (weatherSlug) => {
     case "Clear" : return {weatherImage: sunny, clothesImage: sunnyClothes}
     case "Mostly Clear" : return {weatherImage: sunny, clothesImage: sunnyClothes}
     case "Partly Cloudy" : return {weatherImage: cloudy, clothesImage: cloudyClothes}
+    case "Breezy" : return {weatherImage: cloudy, clothesImage: cloudyClothes}
     case "Cloudy" : return {weatherImage: cloudy, clothesImage: cloudyClothes}
     case "Mostly Cloudy" : return {weatherImage: cloudy, clothesImage: cloudyClothes}
     case "Showers" : return {weatherImage: rainy, clothesImage: rainyClothes}
     case "Rain" : return {weatherImage: rainy, clothesImage: rainyClothes}
+    case "Rain And Snow" : return {weatherImage: rainy, clothesImage: rainyClothes}
     case "Scattered Showers" : return {weatherImage: rainy, clothesImage: rainyClothes}
     case "Scattered Thunderstorms" : return {weatherImage: rainy, clothesImage: rainyClothes}
     case "Thunderstorms" : return {weatherImage: rainy, clothesImage: rainyClothes}

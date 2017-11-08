@@ -1,7 +1,28 @@
 .www__weather-section-container {
   display: block;
   margin: 0 auto;
-  margin-top: 100px;
+}
+.www__weather-section__weather-today-container {
+  display: block;
+  width: 100%;
+}
+.www__weather-section__weather-today-container-weather {
+    display: block;
+    width: 100%;
+  }
+  .www__weather-section__weather-today-container-what-to-wear {
+    display: block;
+    width: 100%;
+  }
+@media screen and (min-width: 768px) {
+  .www__weather-section__weather-today-container-weather {
+    display: inline-block;
+    width: 65%;
+  }
+  .www__weather-section__weather-today-container-what-to-wear {
+    display: inline-block;
+    width: 35%;
+  }
 }
 .www__weather-section_zipcode-input {
   text-align: center;
