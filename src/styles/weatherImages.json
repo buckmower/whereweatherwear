@@ -1,0 +1,5 @@
+{
+  "Partly Cloudy": "cloudy",
+  "Cloudy": "/images/cloudy.jpg",
+  "Rainy": "/images/rainy.png"
+}

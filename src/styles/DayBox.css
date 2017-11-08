@@ -1,0 +1,18 @@
+.www__weather-day-box {
+  display: block;
+  border: 5px solid #333;
+}
+@media screen and (min-width: 768px) {
+  .www__weather-day-box {
+    display: inline-block;
+    padding: 0 20px;
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .www__weather-day-box {
+    display: inline-block;
+    padding: 0 20px;
+    width: 15%;
+  }
+}

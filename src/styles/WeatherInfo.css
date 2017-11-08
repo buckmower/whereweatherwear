@@ -1,0 +1,50 @@
+.www_weather-today-box-weather-section__weather-info-container {
+  margin-bottom: 25px;
+}
+.www_weather-today-box-weather-section__info-section-bars-container {
+  display: block;
+  height: 100px;
+  -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+.www_weather-today-box-weather-section__info-section-high-bar-container {
+  height: 100%;
+  display: inline-block;
+  width: 50%;
+  vertical-align: baseline;
+}
+.www_weather-today-box-weather-section__info-section-low-bar-container {
+  height: 100%;
+  display: inline-block;
+  width: 50%;
+  vertical-align: baseline;
+}
+.www_weather-today-box-weather-section__info-section-low-info {
+  margin-right: 100px;
+}
+@media screen and (min-width: 768px) {
+  .www__weather-today-box {
+    height: 350px;
+    overflow: auto;
+  }
+  .www_weather-today-box-weather-section {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: none;
+  }
+  .www_weather-today-box-what-to-wear-section {
+    display: inline-block;
+    width: 50%;
+  }
+  .www_weather-today-box-weather-section__img-section {
+    display: inline-block;
+    width: 50%;
+  }
+  .www_weather-today-box-weather-section__info-section {
+    display: inline-block;
+    width: 50%;
+  }
+}
